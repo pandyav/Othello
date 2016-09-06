@@ -1,0 +1,26 @@
+Results
+
+Minimax vs Random:
+tests 100
+win rate:
+depth 1=60%
+depth 2=75%
+depth 3=78%
+depth 4=85%
+depth 5=90%
+depth 6=92%
+depth 7=95%
+
+MCTS vs Random
+tests 100
+win rate:
+100 iterations: 85%
+500 iterations: 90%
+1000 iterations: 92%
+
+MCTS vs Minimax
+tests 50
+win rate MCTS
+100 iterations/depth 3: 50%
+500 iterations/depth 5: 30%
+1000 iterations/depth 7: 20%
